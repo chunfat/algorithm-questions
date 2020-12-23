@@ -21,7 +21,7 @@
     **How does it work?**
 
     ![smallest-range-2-sol.jpeg](smallest-range-2-sol.jpeg)
-
+    By observation, the goal is to make all elements to be more “average”, such that it would has smaller differences between the max and min. Also, we know that there is no point to minus k to the small numbers and add k to the big numbers, it would only generate larger differences. From this, we now have a ground truth, `add k to small numbers, minus k to big numbers`. With that in mind, we can divide the sorted array in to 2 sections, always add k to the small numbers and minus k to the big numbers, but we don’t know the pivot. The idea to find the pivot is to go thru each element, get the intermediate global max, min and find the smallest differences.
     **Analysis**
 
     **Time Complexity:** O(n log n)
