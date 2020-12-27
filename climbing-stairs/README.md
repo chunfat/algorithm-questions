@@ -76,5 +76,5 @@ Explanation: There are three ways to climb to the top.
 
 **Lesson Learnt**
 
-- If you can leverage the big problem by solving the sub problems.
+- Leverage the big problem by solving the sub problems.
 - Store the visited node value to reduce time complexity, so called **Dynamic Programming**
