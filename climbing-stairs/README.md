@@ -66,7 +66,7 @@ Explanation: There are three ways to climb to the top.
 
     ![climbing-stair-explanation.png](climbing-stair-explanation.png)
 
-    The `highlighted` are nodes that have been visited more than 1 times. To reduce the time complexity (visiting the same node again), we can cache the visited node values and reuse the calculated values. This a common approach that sacrifice the memory to reduce the time complexity.
+    The `highlighted` are nodes that have been visited more than 1 times. To reduce the time complexity (visiting the same node again), we can cache the visited node values and reuse the calculated values. This is a common approach that sacrifice the memory to reduce the time complexity.
 
     **Analysis**
 
