@@ -57,7 +57,7 @@ Explanation: There are three ways to climb to the top.
     
         The answer is **1**, what about from stair 0? The answer is **2**.
         
-        We can either take 1 one-step from stair 1 and then another one-step from stair 0 to stair 0, or 1 two-step from 0.
+        We can either take 1 one-step from stair 1 and then another 1 one-step from stair 0 to stair 1, or 1 two-step from 0.
 
     Based on the sub problem, we can conclude that if we want to know how many ways that we can take from stair 0 to stair N, we have to answer the sub problems:
 
