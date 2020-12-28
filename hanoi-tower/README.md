@@ -50,11 +50,10 @@ Tower of Hanoi puzzle with n disks can be solved in minimum **2^n−1** steps.
     The Hanoi Tower puzzle is a typical `Divide and Conquer` Algorithm. We solve the small sub problem to answer the complex problem.
 
     1. How to solve the puzzle when there is only one disk?
-        - We move it directly form the start rod to the end rod.
+        - We move it directly from the start rod to the end rod.
     2. How to solve the 2 disks puzzle?
-        - The 1st disk is on the top of the 2nd disk
         - Free the 2nd disk by moving the 1st disk to the free rod
-        - The 2nd is is free, move it to the target rod.
+        - The 2nd disk is free, move it to the target rod.
         - Finally, we can move the 1st disk to target rod.
 
     Now, we have the basic ideas:
@@ -65,7 +64,7 @@ Tower of Hanoi puzzle with n disks can be solved in minimum **2^n−1** steps.
     Let see how we can solve a 3-disk Hanoi Tower with the above ideas:
 
     - To free the 3rd disk, we need to move 1st and 2nd disks to the middle(free) rod
-        - So, now forget the 3rd disk, only goal now is to move a 2-disk hanoi tower from rod 1 to rod 2.
+        - So, now forget the 3rd disk, our goal now is to move a 2-disk hanoi tower from rod 1 to rod 2.
         - To further break down sub problem into the base case, we want to move a 1-disk hano tower from rod 1 to rod 3.
         - After that, disk 2 is free to move from rod 1 to rod 2. To finish the 2-disk hanoi tower, we need to move the disk 1 from rod 3 to rod 2. We just solved the a 2-disk hanoi tower.
 
