@@ -106,7 +106,6 @@ Explanation: Same as Example 1, except with the 5 in the top left corner being m
     Clean code, do one thing in a function
 
     > If the time complexity is the same, there is no reason to make any premature optimizations. Always choose the simplest, most maintainable solution.
-    - Someone
 
     **Time Complexity:** O(81) + O(81) + O(9 * 9 * 3 * 3) => O(1)
 
