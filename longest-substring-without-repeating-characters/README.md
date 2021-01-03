@@ -71,6 +71,16 @@ Output: 0
 
     ![longest-substring-without-repeating-characters.jpeg](longest-substring-without-repeating-characters.jpeg)
 
+    A slide window is often used in finding longest substring in a string. For this question, we need to avoid the repeated characters so we used a hashset. 
+
+    The hashset would **only store the character seen in the current `slide window`.** 
+
+    At each visit (char by char) of the string, we would check if the current character seen, if yes, we need to **update the slide window (`left + 1`)** and **delete left pointer pointing character** in the seen set. The deletion process would be repeated until no more repeating character. 
+
+    It would then add the current character to the seen set and proceed to the next character (`right + 1`). The longest substring would be found on the fly
+
+    When all the character in the string has been visited (right == n), the process would be ended
+
     **Analysis**
 
     **Time Complexity:** O(n)
