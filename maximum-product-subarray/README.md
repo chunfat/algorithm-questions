@@ -11,8 +11,8 @@
         let ans = nums[0];
         
         for (let i = 1; i < nums.length; i++) {
-            let curr_max = Math.max(Math.max(prev_max * nums[i], prev_min * nums[i], nums[i]));
-            let curr_min = Math.min(Math.min(prev_max * nums[i], prev_min * nums[i], nums[i]));
+            let curr_max = Math.max(prev_max * nums[i], prev_min * nums[i], nums[i]);
+            let curr_min = Math.min(prev_max * nums[i], prev_min * nums[i], nums[i]);
             ans = Math.max(curr_max, ans);
             prev_max = curr_max;
             prev_min = curr_min;
