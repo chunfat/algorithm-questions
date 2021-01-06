@@ -117,4 +117,4 @@ The repeated subarray with maximum length is [3, 2, 1].
 
 - Always start with the naive brute force solution, and then try to implement recursion version of it.
 - Try to find the pattern and find the painpoint.
-- If there is any duplication process, it might then be solved by `Dynamic Programing`
+- If there is any duplicated process, it might then be solved by Dynamic Programing
