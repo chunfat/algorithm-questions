@@ -105,7 +105,7 @@ The repeated subarray with maximum length is [3, 2, 1].
 
     **How does it work?**
 
-    This solution is derived from the recursive approach. By looking at the recursion approach, we find that for each comparing pair A[i], B[j], is the result of the next pair A[i + 1] B[j + 1], count + 1 if it is same. Also, we know that we may compare the same pair again for another A[i] B[j], so we can memorize the result of pair A[i + 1] B[j + 1] by adopting `dynamic programming` approach. For each `dp[i][j]` (A[i], B[j]), the result is `dp[i + 1][j + 1] + 1`
+    This solution is derived from the recursive approach. By looking at the recursion approach, we find that for each comparing pair A[i], B[j], is the result of the next pair A[i + 1] B[j + 1], count + 1 if it is same. Also, we know that we may compare the same pair again for another A[i] B[j], so we can memorize the result of pair A[i + 1] B[j + 1] by adopting `dynamic programming` approach. For each `dp[i][j]` (A[i], B[j]), the result is `dp[i + 1][j + 1] + 1`. We can then come up with an algorithm that is bottom-up to pre-calculate the result of dp[i + 1][j + 1] for dp[i][j].
 
     **Analysis**
 
