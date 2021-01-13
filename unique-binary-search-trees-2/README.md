@@ -99,9 +99,25 @@ The above output corresponds to the 5 unique BST's shown below:
 
     **Analysis**
 
-    **Time Complexity:** O(n)
+    **Time Complexity:** O(n ^ 2)
 
-    **Space Complexity:** O(n), non-tail recursion.
+    **Space Complexity:** O(n ^ 2), non-tail recursion.
+
+- **Dynamic Programming Solution**
+
+    ```tsx
+
+    ```
+
+    **How does it work?**
+
+    ![unique-bst-2-dp-sol.jpeg](unique-bst-2-dp-sol.jpeg)
+
+    **Analysis**
+
+    **Time Complexity:** O(n ^ 2)
+
+    **Space Complexity:** O(n ^ 2)
 
 **Lesson Learnt**
 
