@@ -80,7 +80,7 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
     **How does it work?**
 
-    The approach is similar to [3 Sum](../3-sum/README.md), but we are finding the closest sum instead.
+    The approach is similar to [3 Sum](https://www.notion.so/3-Sum-758f8406dbc84afd8a8f6d72f278a9df), but we are finding the closest sum instead.
 
     **Analysis**
 
@@ -90,4 +90,5 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 **Lesson Learnt**
 
--
+- Sort algorithm has it own space complexity.
+- If the interviewer ask for a constant space solution, change the sort algorithm to selection sort, which use constant space for sorting.
