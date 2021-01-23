@@ -85,7 +85,7 @@ Output: 1
 
     1. Find how many **x** bits (31 to 0, inclusively) we need to right shift the dividend so that it would greater or equal to the divisor. ⇒ it also means dividend/(2^x) ≥ divisor.
     2. Add **2^x** to result, this is the multiple that divisor would need to multipy in order to make the dividend smaller.
-    3. Minus the dividend by (divisor *** 2^x ) ⇒ divisor << x**
+    3. Minus the dividend by `(divisor * 2^x) ⇒ divisor << x`
 
     **Analysis**
 
